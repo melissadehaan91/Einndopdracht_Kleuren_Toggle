@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, serif;
+  font-size: normal;
+  font-weight: bold;
+  height: 100%;
+  margin: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 0px;
+}
+a:hover {
+  font-size: 24px;
+  transition: 150ms;
+}
+img {
+  display: block;
+  width: 50px;
+  margin: 0;
+}
+#menu {
+  display: inline-block;
+}
+#menu:hover .list-dots {
+  width: 250px;
+  height: auto;
+}
+#menu:hover .list-dots .change-color{
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  border: 2px solid black;
+}
+#hamburger {
+  cursor: pointer;
+}
+.list-dots {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin-top: 0;
+  width: 50px;
+  height: 0;
+  transition: 1000ms;
+}
+.change-color {
+  display: block;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  transition: 1000ms;
+}
+.white {
+  background-color: white;
+  border-bottom: none !important;
+}
+.red {
+  background-color: red;
+  border-bottom: none !important;
+}
+.orange {
+  background-color: orange;
+  border-bottom: none !important;
+}
+.yellow {
+  background-color: yellow;
+  border-bottom: none !important;
+}
+.green {
+  background-color: green;
+  border-bottom: none !important;
+}
+.blue {
+  background-color: blue;
+  border-bottom: none !important;
+}
+.purple {
+  background-color: purple;
+}
